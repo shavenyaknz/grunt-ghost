@@ -67,7 +67,9 @@ ghost: {
       // Prints the command given to CasperJS
       printCommand: true,
       // Prints list of filepaths
-      printFilePaths: true
+      printFilePaths: true,
+      // Turns on remote debugging and specifies which port should be used
+      remoteDebuggingPort: 8066
     }
   }
 }
