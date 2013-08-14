@@ -39,6 +39,8 @@ module.exports = function (grunt) {
 
     if (options.failFast) command.push('--fail-fast');
 
+    if (options.remoteDebuggerPort) command.push('--remote-debugger-port');
+
     if (options.args) {
       var args = options.args;
       for (var a in args) {
