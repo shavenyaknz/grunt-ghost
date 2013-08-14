@@ -68,7 +68,7 @@ ghost: {
       printCommand: true,
       // Prints list of filepaths
       printFilePaths: true,
-      // Turns on remote debugging and specifies which port should be used
+      // Turns on remote debugger and specifies which port should be used
       remoteDebuggingPort: 8066
     }
   }
